@@ -1,5 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dialogue",
+  description:
+    "Talk to anyone, anywhere, anytime and track your conversations.",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 
 export default function HomeLayout({
   children,
