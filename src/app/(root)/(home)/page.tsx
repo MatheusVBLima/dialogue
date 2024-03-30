@@ -1,7 +1,7 @@
 import MeetingTypeList from "@/components/MeetingTypeList";
 import WelcomeUser from "@/components/WelcomeUser";
 
-function page() {
+function Home() {
   const now = new Date();
   const time = now.toLocaleTimeString("pt-BR", {
     hour: "numeric",
@@ -35,4 +35,4 @@ function page() {
   );
 }
 
-export default page;
+export default Home;
